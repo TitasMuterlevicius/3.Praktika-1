@@ -1,0 +1,78 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d4e6fe ;
+}
+button {
+     color: white;
+     background-color: #233bf3;
+     border-radius: 12px;
+     width: 100px;
+     height: 30px;
+     text-align: center;
+     margin: auto;
+     text-align: center; 
+
+    
+ }
+
+h1 {
+    color:#152cf5 ;
+} 
+
+
+.name-surname, .phone-email, .address, .textarea {
+    color:#4283ed ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+} 
+ 
+.table {
+    background-color: white;
+    max-width: fit-content;
+    padding: 30px;
+    margin: 60px auto;
+}
+
+.name-surname {
+    background-color: #e7e9fe;
+    width: 200px; height: 30px;
+}
+
+.phone-email {
+    background-color: #dce1ff ;
+    width: 200px; height: 30px;
+
+}
+
+.address {
+    background-color: #c7cdfd;
+    width: 410px; height: 30px;
+}
+
+.textarea {
+    background-color: #a5b1fd ;
+    width: 410px; height: 100px;
+    resize: none;
+}
+
+::placeholder {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4a5ff5;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+p {
+    font-size: small;
+    color: #5dd6b6 ;
+}
+
+.button {
+    display: flex; 
+    padding-top: 10px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
